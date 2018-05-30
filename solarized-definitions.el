@@ -796,6 +796,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (notmuch-tag-face (,@fg-green))
                 (notmuch-tag-unread (,@fmt-bold ,@fg-red))
                 (notmuch-message-summary-face (,@bg-base02))
+                (notmuch-show-known-addr (,@fg-green))
+                (notmuch-show-unknown-addr (,@fg-base0))
                 ;; undo-tree
                 (undo-tree-visualizer-current-face (,@fg-orange))
                 (undo-tree-visualizer-default-face (:inherit shadow))
