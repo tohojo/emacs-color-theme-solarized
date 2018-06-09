@@ -622,7 +622,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (helm-M-x-key (,@fmt-none ,@fg-orange))
                 (helm-match (:inherit match))
                 (helm-moccur-buffer (,@fmt-undr ,@fg-cyan))
-                (helm-selection (:inherit hl-line))
+                (helm-selection (:inherit secondary-selection))
                 (helm-selection-line (:inherit secondary-selection))
                 (helm-separator (,@fg-red))
                 (helm-source-header (:inherit helm-header))
