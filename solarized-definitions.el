@@ -359,6 +359,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (font-lock-exit-face (,@fmt-none ,@fg-red))
                 (font-lock-other-emphasized-face (,@fmt-bldi ,@fg-violet))
                 (font-lock-regexp-grouping-backslash (,@fmt-none ,@fg-yellow))
+                ;; tooltips
+                (tooltip (,@fg-base00 ,@bg-base02))
                 ;; info
                 (info-xref (:inherit link))
                 (info-xref-visited (:inherit link-visited))
