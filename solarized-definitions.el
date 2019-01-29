@@ -854,6 +854,9 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (diredp-rare-priv (,@fg-red))
                 (diredp-read-priv (,@fg-violet))
                 (diredp-write-priv (,@fg-green))
+                ;; smerge
+                (smerge-refined-added (,@fg-green ,@fmt-revr))
+                (smerge-refined-removed (,@fg-red ,@fmt-revr))
 
                 ;; haskell
                 (haskell-keyword-face (,@fg-cyan)))))))
