@@ -308,6 +308,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                          (diff-refine-change (,@fg-blue ,@bg-base02))))))
                 (diff-refine-added (:inherit diff-added ,@fmt-revr))
                 (diff-refine-removed (:inherit diff-removed ,@fmt-revr))
+                (diff-indicator-added (:inherit diff-added))
+                (diff-indicator-removed (:inherit diff-removed))
                 (diff-file-header (:inherit default ,@fg-blue))
                 (diff-hunk-header (:inherit default))
                 (diff-header (,@fg-base1 ,@bg-back))
