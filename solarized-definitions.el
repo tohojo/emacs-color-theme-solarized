@@ -759,6 +759,15 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (company-preview (,@bg-green))
                 (company-preview-common (,@bg-base02))
                 (company-template-field (,@fg-base03 ,@bg-yellow))
+                ;; lsp-mode
+                (lsp-ui-doc-background (,@bg-base02))
+                (lsp-ui-peek-peek (,@fg-base0 ,@bg-base03))
+                (lsp-ui-peek-list (,@fg-base0 ,@bg-base03))
+                (lsp-ui-peek-line-number (,@fg-base01 ,@bg-base02))
+                (lsp-ui-peek-highlight (,@fg-green))
+                (lsp-ui-peek-filename (,@fg-blue))
+                (lsp-ui-peek-selection (:inherit secondary-selection))
+                (lsp-ui-peek-header (:inherit lsp-ui-peek-list ,@fmt-revr))
                 ;; hydra
                 (hydra-face-red (,@fmt-bold ,@fg-red))
                 (hydra-face-blue (,@fmt-bold ,@fg-blue))
