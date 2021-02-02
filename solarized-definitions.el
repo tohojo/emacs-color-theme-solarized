@@ -868,6 +868,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 ;; smerge
                 (smerge-refined-added (,@fg-green ,@fmt-revr))
                 (smerge-refined-removed (,@fg-red ,@fmt-revr))
+                ;; eglot
+                (eglot-mode-line (:inherit mode-line))
 
                 ;; haskell
                 (haskell-keyword-face (,@fg-cyan)))))))
