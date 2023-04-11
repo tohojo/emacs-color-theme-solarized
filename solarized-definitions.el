@@ -870,6 +870,23 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (smerge-refined-removed (,@fg-red ,@fmt-revr))
                 ;; eglot
                 (eglot-mode-line (:inherit mode-line))
+                ;; eat-term
+                (eat-term-color-0 (,@fg-base02))
+                (eat-term-color-1 (,@fg-red))
+                (eat-term-color-2 (,@fg-green))
+                (eat-term-color-3 (,@fg-yellow))
+                (eat-term-color-4 (,@fg-blue))
+                (eat-term-color-5 (,@fg-magenta))
+                (eat-term-color-6 (,@fg-cyan))
+                (eat-term-color-7 (,@fg-base2))
+                (eat-term-color-8 (,@fg-base03))
+                (eat-term-color-9 (,@fg-orange))
+                (eat-term-color-10 (,@fg-base01))
+                (eat-term-color-11 (,@fg-base00))
+                (eat-term-color-12 (,@fg-base0))
+                (eat-term-color-13 (,@fg-violet))
+                (eat-term-color-14 (,@fg-base1))
+                (eat-term-color-15 (,@fg-base3))
 
                 ;; haskell
                 (haskell-keyword-face (,@fg-cyan)))))))
