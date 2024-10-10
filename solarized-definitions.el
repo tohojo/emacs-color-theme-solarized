@@ -889,7 +889,11 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (eat-term-color-15 (,@fg-base3))
 
                 ;; haskell
-                (haskell-keyword-face (,@fg-cyan)))))))
+                (haskell-keyword-face (,@fg-cyan))
+
+                ;; ediff
+                (ediff-fine-diff-B (,@fg-green ,@fmt-revr))
+                (ediff-fine-diff-A (,@fg-red ,@fmt-revr)))))))
 
 ;;;###autoload
 (when (boundp 'custom-theme-load-path)
