@@ -893,7 +893,12 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
 
                 ;; ediff
                 (ediff-fine-diff-B (,@fg-green ,@fmt-revr))
-                (ediff-fine-diff-A (,@fg-red ,@fmt-revr)))))))
+                (ediff-fine-diff-A (,@fg-red ,@fmt-revr))
+
+                ;; forge
+                (forge-pullreq-open (,@fg-green))
+                (forge-pullreq-merged (,@fg-violet))
+                (forge-pullreq-rejected (,@fg-violet :strike-through t)))))))
 
 ;;;###autoload
 (when (boundp 'custom-theme-load-path)
